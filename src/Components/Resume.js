@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Resume extends Component {
   render() {
     if(this.props.data){
-      var education = this.props.data.education.map(function(edu){
+      var EXPERTISE = this.props.data.EXPERTISE.map(function(edu){
         return <div key={edu.school} className="row item">
            <div className="twelve columns">
               <h3>{edu.school}</h3>
@@ -16,7 +16,7 @@ class Resume extends Component {
         </div>
       });
 
-      var work = this.props.data.work.map(function(job){
+      var ENGAGEMENTS = this.props.data.ENGAGEMENTS.map(function(job){
         return <div key={job.company} className="row item">
            <div className="twelve columns">
               <h3>{job.company}</h3>
@@ -29,43 +29,43 @@ class Resume extends Component {
         </div>
       });
 
-      var skills = this.props.data.skills.map(function(skill){
+      var TECHNOLOGIES = this.props.data.TECHNOLOGIES.map(function(skill){
         var className = 'bar-expand '+skill.name.toLowerCase();
         return <li key={skill.name}><span style={{width:skill.level}} className={className}></span><em>{skill.name}</em></li>
       });
     }
     return (
       <section id="resume">
-      <div className="row education">
+      <div className="row EXPERTISE">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>EXPERTISE</span></h1>
          </div>
 
          <div className="nine columns main-col">
-            {education}
+            {EXPERTISE}
          </div>
       </div>
 
-      <div className="row work">
+      <div className="row ENGAGEMENTS">
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>ENGAGEMENTS</span></h1>
          </div>
 
          <div className="nine columns main-col">
-          {work}
+          {ENGAGEMENTS}
          </div>
       </div>
 
       <div className="row skill">
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>SYSTEMS</span></h1>
          </div>
          <div className="nine columns main-col">
-            <p>The main skill sets below outline the variety of skills performed within my current role as Senior Photographer at Block Media in Paris, France..
+            <p>We have been working on the specializations listed below in the whole of Africa
             </p>
 				<div className="bars">
-				   <ul className="skills">
-					  {skills}
+				   <ul className="TECHNOLOGIES">
+					  {TECHNOLOGIES}
 					</ul>
 				</div>
 			</div>

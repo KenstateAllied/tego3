@@ -171,7 +171,7 @@ Your app is ready to be deployed!
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still ENGAGEMENTS, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
@@ -208,7 +208,7 @@ Finally, you will need to install some packages *globally*:
 npm install -g eslint-config-react-app@0.3.0 eslint@3.8.1 babel-eslint@7.0.0 eslint-plugin-react@6.4.1 eslint-plugin-import@2.0.1 eslint-plugin-jsx-a11y@2.2.3 eslint-plugin-flowtype@2.21.0
 ```
 
-We recognize that this is suboptimal, but it is currently required due to the way we hide the ESLint dependency. The ESLint team is already [working on a solution to this](https://github.com/eslint/eslint/issues/3458) so this may become unnecessary in a couple of months.
+We recognize that this is suboptimal, but it is currently required due to the way we hide the ESLint dependency. The ESLint team is already [ENGAGEMENTSing on a solution to this](https://github.com/eslint/eslint/issues/3458) so this may become unnecessary in a couple of months.
 
 ## Installing a Dependency
 
@@ -334,7 +334,7 @@ There is currently no support for preprocessors such as Less, or for sharing var
 
 ## Adding Images and Fonts
 
-With Webpack, using static assets like images and fonts works similarly to CSS.
+With Webpack, using static assets like images and fonts ENGAGEMENTSs similarly to CSS.
 
 You can **`import` an image right in a JavaScript module**. This tells Webpack to include that image in the bundle. Unlike CSS imports, importing an image or a font gives you a string value. This value is the final image path you can reference in your code.
 
@@ -356,7 +356,7 @@ export default function Header;
 
 This ensures that when the project is built, Webpack will correctly move the images into the build folder, and provide us with correct paths.
 
-This works in CSS too:
+This ENGAGEMENTSs in CSS too:
 
 ```css
 .Logo {
@@ -377,7 +377,7 @@ An alternative way of handling static assets is described in the next section.
 
 Normally we encourage you to `import` assets in JavaScript files as described above. This mechanism provides a number of benefits:
 
-* Scripts and stylesheets get minified and bundled together to avoid extra network requests.
+* Scripts and stylesheets get minified and bundled together to avoid extra networking requests.
 * Missing files cause compilation errors instead of 404 errors for your users.
 * Result filenames include content hashes so you don’t need to worry about browsers caching their old versions.
 
@@ -393,7 +393,7 @@ Inside `index.html`, you can use it like this:
 
 Only files inside the `public` folder will be accessible by `%PUBLIC_URL%` prefix. If you need to use a file from `src` or `node_modules`, you’ll have to copy it there to explicitly specify your intention to make this file a part of the build.
 
-When you run `npm run build`, Create React App will substitute `%PUBLIC_URL%` with a correct absolute path so your project works even if you use client-side routing or host it at a non-root URL.
+When you run `npm run build`, Create React App will substitute `%PUBLIC_URL%` with a correct absolute path so your project ENGAGEMENTSs even if you use client-side routing or host it at a non-root URL.
 
 In JavaScript code, you can use `process.env.PUBLIC_URL` for similar purposes:
 
@@ -652,7 +652,7 @@ Since Create React App doesn’t support server rendering, you might be wonderin
 
 Then, on the server, regardless of the backend you use, you can read `index.html` into memory and replace `%OG_TITLE%`, `%OG_DESCRIPTION%`, and any other placeholders with values depending on the current URL. Just make sure to sanitize and escape the interpolated values so that they are safe to embed into HTML!
 
-If you use a Node server, you can even share the route matching logic between the client and the server. However duplicating it also works fine in simple cases.
+If you use a Node server, you can even share the route matching logic between the client and the server. However duplicating it also ENGAGEMENTSs fine in simple cases.
 
 ## Running Tests
 
@@ -810,12 +810,12 @@ Similarly, `fit()` lets you focus on a specific test without running any other t
 
 ### Coverage Reporting
 
-Jest has an integrated coverage reporter that works well with ES6 and requires no configuration.<br>
+Jest has an integrated coverage reporter that ENGAGEMENTSs well with ES6 and requires no configuration.<br>
 Run `npm test -- --coverage` (note extra `--` in the middle) to include a coverage report like this:
 
 ![coverage report](http://i.imgur.com/5bFhnTS.png)
 
-Note that tests run much slower with coverage so it is recommended to run it separately from your normal workflow.
+Note that tests run much slower with coverage so it is recommended to run it separately from your normal ENGAGEMENTSflow.
 
 ### Continuous Integration
 
@@ -857,7 +857,7 @@ CI=true npm test
 
 This way Jest will run tests once instead of launching the watcher.
 
-If you find yourself doing this often in development, please [file an issue](https://github.com/facebookincubator/create-react-app/issues/new) to tell us about your use case because we want to make watcher the best experience and are open to changing how it works to accommodate more workflows.
+If you find yourself doing this often in development, please [file an issue](https://github.com/facebookincubator/create-react-app/issues/new) to tell us about your use case because we want to make watcher the best experience and are open to changing how it ENGAGEMENTSs to accommodate more ENGAGEMENTSflows.
 
 ### Disabling jsdom
 

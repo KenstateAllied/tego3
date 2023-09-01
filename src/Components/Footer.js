@@ -12,8 +12,8 @@ class Footer extends Component {
 
 
             <ul className="copyright">
-               <li>&copy; Copyright 2017 Henri Leroy </li>
-               <li>Design by <a target="_blank" href="https://www.linkedin.com/in/letuscode/">Jason Williams</a></li>
+               <li>&copy; Copyright 2023 Tego Networks </li>
+               <li>Design by <a target="_blank" href="https://www.kenstate-web.netlify.app/">Kenstate Allied - kenstate-web.netlify.app</a></li>
             </ul>
 
          </div>

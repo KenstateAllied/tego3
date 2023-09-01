@@ -1,20 +1,20 @@
 {
   "main": {
-    "name":"Henri Leroy",
-    "occupation":"PhotoJournalist and Documentary Photographer. ",
-    "description":"I travel the world with my camera and tell storys in a way no other media can.",
-    "image":"profilepic.jpg",
-    "bio":"I am a French Photographer and I have worked in PhotoJournalism now for 15 years. I have had the opportunity to travel the world and document some of the most important events in history",
-    "email": "henrileroy@gmail.com",
-    "phone": "526-721-9318",
+    "Company":"TEGO networkingS .....DO MORE ",
+    "Business":"We are an Internet Service Provider. ",
+    "Niche":"Digital Sapce.",
+    "image":"tego_logo.jpg",
+    "CEO":"Director Strategy ",
+    "email": "info@tego-networkings.co.ke",
+    "phone": "+254 720 075 587",
     "address":{
-      "street":"17 Rue des Quatre Vents",
-      "city":"Paris",
-      "state":"France",
-      "zip": "75006"
+      "street":"Outspan Close Rm 7",
+      "city":"Eldoret",
+      "state":"Kenya",
+      "zip": "01000"
     },
-    "website": "http://www.parisphoto.com/paris/exhibitors",
-    "resumedownload":"#",
+    "website": "http://www.tego-networkings.co.ke",
+    "profileDownload":"#",
     "social":[
       {
         "name":"facebook",
@@ -41,11 +41,7 @@
         "url":"http://instagram.com",
         "className":"fa fa-instagram"
       },
-      {
-        "name":"github",
-        "url":"http://github.com",
-        "className":"fa fa-github"
-      },
+      
       {
         "name":"skype",
         "url":"http://skype.com",
@@ -53,54 +49,51 @@
       }
     ]
   },
-  "resume":{
-    "education":[
+  "EXPERTISE & EXPERIENCE":{
+    "RADIO & MICROWAVE COMMUNICATIONS":[
       {
-        "school":"The SFC College of Art",
-        "degree":"Bachelor",
-        "graduated":"April 2004",
-        "description":"Bachelor at the college of Art where I studied a broad aspect of skill sets including Photography and typography."
+        
       },
       {
-        "school":"The AB Photography Institute",
-        "degree":"Diploma in Photography",
-        "graduated":"March 2006",
-        "description":"Completed and graduated with the Diploma in Photography at the AB Photography Institute."
+       "SITE":"XXX",
+        "CERTIFICATION":"XXX",
+        "CONTRACT TYPE":"XXX",
+        "DATE OF COMPLETION":"xxxx."
       }
     ],
-    "work":[
+    "CERTIFICATE OF COMPLETION":[
       {
-        "company":"Block Media, Paris",
-        "title":"Senior Photographer ",
-        "years":"March 2009 - present",
-        "description":"Senior Photographer undertaking all aspects including strobes , photojournalism, documentary photography, Advanced Photoshop editing, and managed a team of Junior staff in a large commercial studio."
+        "Company":"xxxxx",
+        "Title":"xxxxx",
+        "Duration":"March 2009 - present",
+        "Description":"xxxxx."
       },
       {
-        "company":"Eagle Production, Paris",
-        "title":"Junior Photographer",
-        "years":"March 2005 - February 2009",
-        "description":"Consolidating my knowledge and developing my studio skills set .Mastered the art of Photoshop and digital editing."
+        "Company":"",
+        "Title":"xxx",
+        "Duration":"March 2005 - February 2009",
+        "Description":"xxxxxxx."
       }
     ],
-    "skills":[
+    "TECHNOLOGIES":[
       {
-        "name":"Photoshop",
-        "level":"40%"
+        "name":"INTERNET SERVICE PROVISION",
+        "level":"100%"
       },
       {
-        "name":"Illustrator",
-        "level":"25%"
+        "name":"networkingING & TERMINAL CONNECTIVITY",
+        "level":"75%"
       },
       {
-        "name":"Photography",
+        "name":"SATELLITE BROADBAND",
         "level":"70%"
       },
       {
-        "name":"Branding",
-        "level":"30%"
+        "name":"SOFTWARE DEVELOPMENT",
+        "level":"50%"
       },
       {
-        "name":"Education",
+        "name":"BRANDING",
         "level":"50%"
       }
       
@@ -109,74 +102,74 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Mystic",
-        "description":"An image taking for a commercial project",
-        "category":"Photoshop",
-        "tags":"Branding, Web Design",
-        "image":"mystic.jpg",
+        "title":"networkingING",
+        "description":"ALL TYPES OF CONNECTIONS",
+        "category":"CONNECTIVITY",
+        "tags":"OPTICAL FIBER, WI- FI",
+        "image":"networkinging.jpg",
         "url":"http://port1.com",
         "modal":"#modal-01"
       },
       {
-        "title":"Console",
-        "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
-        "category":"Photograhy",
+        "title":"ISP",
+        "description":"OPTICAL FIBER TO WI - FI.",
+        "category":"INTERNET SERVICE PROVIDER",
         "tags":"Branding, Photography",
-        "image":"console.jpg",
+        "image":"it.jpg",
         "url":"http://port2.com",
         "modal":"#modal-02"
       },
       {
-        "title":"Judah",
+        "title":"RADIO TELECOM",
         "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
-        "category":"Photoshop, Photography",
+        "category":"RADIO & MICRO WAVE",
         "tags":"Branding, Photography",
-        "image":"judah.jpg",
+        "image":"radio.jpg",
         "url":"http://port3.com",
         "modal":"#modal-03"
       },
       {
-        "title":"Into The Light",
-        "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
-        "category":"Photography",
+        "title":"HARDWARE  &  SALES",
+        "description":"LAPTOPS ETC .",
+        "category":"DESKTOPS, LAPTOPS, ACCESSORIES",
         "tags":"Photography",
-        "image":"into-the-light.jpg",
+        "image":"laptop.jpg",
         "url":"http://port4.com",
         "modal":"#modal-04"
       },
       {
-        "title":"Carlmer",
+        "title":"SATELLITE COMMUNICATIONS",
         "description":"An editorial image for a top fashion magazine",
-        "category":"Branding",
+        "category":"OUTER SPACE",
         "tags":"Branding,Photography",
-        "image":"carlmer.jpg",
+        "image":"starlink.jpg",
         "url":"http://port5.com",
         "modal":"#modal-05"
       },
       {
-        "title":"Forgotten",
+        "title":"SOFTWARE DEVELOPMENT",
         "description":"A documentary image as part of a larger project for an international charity.",
-        "category":"Photography",
+        "category":"SOFTWARE DEVELOPMENT",
         "tags":"Photography",
-        "image":"forgotten.jpg",
+        "image":"dev.jpg",
         "url":"http://port6.com",
         "modal":"#modal-06"
       },
       {
-        "title":"The Street",
+        "title":"TELEPHONY & MOBILITY",
         "description":"This image was for a commercial stylist and magazine editorial.",
-        "category":"Photography",
+        "category":"MOBILITY",
         "tags":"Branding, Photoshop",
-        "image":"thestreet.jpg",
+        "image":"samsung.jpg",
         "url":"http://port7.com",
         "modal":"#modal-07"
       },
       {
-        "title":"The young one",
+        "title":"DATA CLOUDS",
         "description":"This image was taken for a world wide Fashion store specialising in menswear.",
-        "category":"Photography",
+        "category":"DATA",
         "tags":"Photography",
-        "image":"theyoungone.jpg",
+        "image":"server.jpg",
         "url":"http://port8.com",
         "modal":"#modal-08"
       }
@@ -185,12 +178,12 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"We used Henri to take images on our behalf for a recent multi-million pound project. He completely understood the brief and his shots were well taken, striking and wonderfully framed. Henri is a punctual, polite and trustworthy individual who I wouldn’t hesitate to recommend to others as we will definitely be using him for future projects. He is a pleasure to work with.",
-        "user":"Laura Evans"
+        "text":"Well sorted.",
+        "Client":" Elgon View Eldoret resident"
       },
       {
-        "text":"We approached Henri with an 11th hour request to photograph a building we had just re-branded. We were on a very tight deadline to produce the promotional material, ready for a launch party the following week. Henri was incredibly accommodating, and made himself available for the following day The photographs were excellent and met with the client’s approval, so much so that he also became the photographer for the launch event! Henri is highly personable and professional and I have no hesitation in recommending him.",
-        "user":"Steven Lauder (Director)"
+        "text":"Happy.",
+        "Customer":"Gilanis Supermarket Nakuru"
       }
     ]
   }

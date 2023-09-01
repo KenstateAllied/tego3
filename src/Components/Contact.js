@@ -51,7 +51,7 @@ class Contact extends Component {
           </div>
 
           <div className="ten columns">
-            <p className="lead">Please feel free to contact me and I will return your email so we can keep in touch. Please fill out the form and note * items are required before submission.
+            <p className="lead">Please kindly call us with your order.
                   </p>
 
           </div>

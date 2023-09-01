@@ -18,7 +18,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: hsl(0, 15%, 68%); }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -26,10 +26,10 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   height: 1000px;
+   min-height: 700px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: hsl(7, 7%, 82%); url (../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -223,7 +223,7 @@ ul#nav li.current a { color: #8bc34a; }
 }
 #about .download .button i {
    margin-right: 15px;
-   font-size: 20px;
+   font-size: 30px;
 }
 
 
@@ -257,7 +257,7 @@ ul#nav li.current a { color: #8bc34a; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.EXPERTISE, .ENGAGEMENTS {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -338,8 +338,8 @@ ul#nav li.current a { color: #8bc34a; }
   	-webkit-animation: branding 2s ease;
 }
 .eduction {
-  	-moz-animation: education 2s ease;
-  	-webkit-animation: education 2s ease;
+  	-moz-animation: EXPERTISE 2s ease;
+  	-webkit-animation: EXPERTISE 2s ease;
 }
 
 
@@ -359,7 +359,7 @@ ul#nav li.current a { color: #8bc34a; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes education {
+@-moz-keyframes EXPERTISE {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -381,7 +381,7 @@ ul#nav li.current a { color: #8bc34a; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes education {
+@-webkit-keyframes EXPERTISE {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -620,7 +620,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
